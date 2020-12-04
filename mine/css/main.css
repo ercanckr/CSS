@@ -1,0 +1,20 @@
+/*Genel Ayarlar*/
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+body {
+  background-color: white;
+  color: #3f3f3f;
+  font: 14px / 28px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+/*Yerleşim Ayarlar*/
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+/*Ana Ayarlar*/
