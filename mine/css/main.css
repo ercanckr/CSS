@@ -46,9 +46,17 @@ h3 {
 .featuresBody .container {
   justify-content: space-between;
 }
+.engineBody .container {
+  justify-content: space-between;
+}
 .col3 {
   flex-grow: 1;
   width: 33.33%;
+}
+.col2 {
+  flex-grow: 1;
+  width: 50%;
+  padding: 20px;
 }
 
 /*Ana Ayarlar*/
@@ -74,9 +82,7 @@ header .logo img {
   color: #333333;
   transition: all 0.5s ease;
 }
-.menu li a:last-child {
-  padding-right: 0s;
-}
+
 .menu li:hover a {
   background: #500d16;
   color: white;
@@ -150,4 +156,116 @@ header .logo img {
 }
 .itemText p {
   margin: 20px 0;
+}
+
+#parallax {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/paralax.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+#parallax p {
+  color: white;
+}
+.engineTop {
+  text-align: center;
+}
+.enginContainer {
+  position: relative;
+  width: 100%;
+}
+.imageOver {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.engineOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(50, 13, 22, 0.7);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+.enginContainer:hover .engineOverlay {
+  width: 100%;
+}
+.engineText {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.engineOverlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(50, 13, 22, 0.7);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+.enginContainer:hover .engineOverlay2 {
+  width: 100%;
+  left: 0;
+}
+footer {
+  background: #500d16;
+  text-align: center;
+}
+.footeritem {
+  padding: 20px;
+}
+.footeritem img {
+  height: 70px;
+  opacity: 90%;
+}
+
+footer h3 {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  opacity: 90%;
+}
+footer .fab {
+  font-size: 40px;
+  color: #95a5a6;
+  line-height: 50px;
+  transition: 0.3 ease;
+}
+footer .fab:hover {
+  color: white;
+}
+footer p {
+  color: #95a5a6;
+  line-height: 20px;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: #95a5a6;
+  letter-spacing: 2px;
+  transition: 0.3 ease;
+}
+.footerLinks a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.socialLinks li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
 }
