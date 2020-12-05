@@ -15,26 +15,26 @@ h1 {
   margin-bottom: 20px;
 }
 
-.sectionHeader{
-    background: #550d16;
-    border-bottom: 6px solid #000;
-    height: 60px;
-    color: white;
-    display: inline-block;
-    line-height: 60px;
-    font-size: 24px;
-    padding: 5px 40px;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+.sectionHeader {
+  background: #550d16;
+  border-bottom: 6px solid #000;
+  height: 60px;
+  color: white;
+  display: inline-block;
+  line-height: 60px;
+  font-size: 24px;
+  padding: 5px 40px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
-h3{
-    font-size: 16px;
-    color: #500d16;
-    font-weight: bold;
-    transition: all 0.5s ease;
+h3 {
+  font-size: 16px;
+  color: #500d16;
+  font-weight: bold;
+  transition: all 0.5s ease;
 }
-.sectionArea{
-    padding: 80px 0;
+.sectionArea {
+  padding: 80px 0;
 }
 
 /*Yerleşim Ayarlar*/
@@ -43,12 +43,12 @@ h3{
   margin: 0 auto;
   display: flex;
 }
-.featuresBody .container{
-    justify-content: space-between;
+.featuresBody .container {
+  justify-content: space-between;
 }
-.col3{
-    flex-grow: 1;
-    width: 33.33%;
+.col3 {
+  flex-grow: 1;
+  width: 33.33%;
 }
 
 /*Ana Ayarlar*/
@@ -73,10 +73,9 @@ header .logo img {
   letter-spacing: 3px;
   color: #333333;
   transition: all 0.5s ease;
-
 }
 .menu li a:last-child {
-  padding-right: 0;s
+  padding-right: 0s;
 }
 .menu li:hover a {
   background: #500d16;
@@ -102,56 +101,53 @@ header .logo img {
   width: 100%;
   color: white;
 }
-.featuresTop{
-    text-align: center;
+.featuresTop {
+  text-align: center;
 }
-.item{
-    padding: 10px 20px;
+.item {
+  padding: 10px 20px;
 }
-.zoom{
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
-
+.zoom {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
 }
 .zoom img {
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: all .5s ease;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 0.5s ease;
 }
-.item .itemText{
-    text-align: center;
-    padding: 5px;
-    border: 1px solid #500d16;
+.item .itemText {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #500d16;
+}
 
+.item:hover .zoom img {
+  transform: scale(1.25);
 }
-
-.item:hover .zoom img{
-    transform: scale(1.25);
+.item:hover h3 {
+  color: white;
 }
-.item:hover h3{
-    color: white;
+.item:hover .itemText {
+  background: #500d16;
+  color: white;
+  transition: all 0.5s ease;
 }
-.item:hover .itemText{
-    background: #500d16;
-    color: white;
-    transition: all .5s ease;
+.btnDetails {
+  color: #500d16;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #500d16;
+  transition: all 0.5s ease;
 }
-.btnDetails{
-    color: #500d16;
-    padding: 5px 10px;
-    text-decoration: none;
-    border: 1px solid #500d16;
-    transition: all .5s ease;
-
+.item:hover .btnDetails {
+  color: white;
+  border: 1px solid white;
 }
-.item:hover .btnDetails{
-    color: white;
-    border: 1px solid white;
-}
-.itemText p{
-    margin: 20px 0 ;
+.itemText p {
+  margin: 20px 0;
 }
