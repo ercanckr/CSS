@@ -269,3 +269,111 @@ footer p {
   width: 50px;
   height: 50px;
 }
+/*DERSLER Ayarlar*/
+
+#dersSlider {
+  height: 250px;
+  background: url("../img/ders.jpg") center center no-repeat;
+  background-size: cover;
+}
+.slider {
+  width: 100%;
+}
+#dersCaption {
+  height: 250px;
+  background: rgba(0, 0, 0, 0.5);
+}
+#inspect {
+  background-color: #f5f5f5;
+}
+.inspectTop {
+  text-align: center;
+}
+.inspectBody .col2 {
+  display: flex;
+}
+.inspectimage {
+  width: 40%;
+}
+.inspectimage img {
+  width: 100%;
+  height: auto;
+}
+.ispectText {
+  width: 60%;
+  padding-left: 10px;
+}
+.date {
+  color: #333;
+  font-size: 12px;
+  font-style: italic;
+}
+
+h4 {
+  color: #500d16;
+  font-style: 14px;
+  font-weight: bold;
+}
+.ispectText a {
+  float: right;
+  text-decoration: none;
+  color: #333;
+}
+.ispectText a:hover {
+  text-decoration: underline;
+}
+.projectXTop {
+  text-align: center;
+}
+#projectX .containerFluid {
+  height: 500px;
+  background: url("../img/fu.jpg") center center no-repeat;
+  background-size: cover;
+}
+.captionPX {
+  display: flex;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 500px;
+}
+.projectXinfo {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: 5%;
+  padding: 5%;
+  transform: translate(-50%, -50%);
+}
+.projectXTitle {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.projectXBTN {
+  background-color: #500d16;
+  cursor: pointer;
+  padding: 20px 40px;
+  border: none;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+.projectXBTN:hover {
+  background-color: #fff;
+  color: #500d16;
+}
+.projectXText {
+  color: white;
+}
+.projectXHighlight {
+  display: inline-block;
+  background-color: #500d16;
+  padding: 30px;
+}
+.containerFluid .col2 {
+  padding: 0;
+}
+.projectXDetail li {
+  color: white;
+}
