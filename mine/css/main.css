@@ -229,7 +229,7 @@ footer {
   padding: 20px;
 }
 .footeritem img {
-  height: 150px;
+  height: 100px;
   opacity: 90%;
 }
 
@@ -505,4 +505,117 @@ h4 {
 }
 .memberSocialLinks .fab {
   color: white;
+}
+/*contact Ayarlar*/
+#contactSlider {
+  height: 500px;
+  background: url("../img/contact.jpg") center center no-repeat;
+  background-size: cover;
+}
+#contactCaption {
+  height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+}
+#gallery {
+  background-color: #f5f5f5;
+}
+
+.galleryTop {
+  text-align: center;
+}
+.gallerySlider {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallerySlideritem {
+  width: 300%;
+  position: relative;
+  left: 0;
+  animation: slideAnimation 30s infinite;
+}
+.gallerySlideritem img {
+  width: 33.33%;
+  float: left;
+  height: auto;
+}
+@keyframes slideAnimation {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  75% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.contactTop {
+  text-align: center;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+.contactForm {
+  margin: 0 auto;
+  width: 60%;
+}
+.formitem {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.formShape {
+  color: white;
+  float: left;
+  background: #500d16;
+  padding: 8px;
+  width: 8%;
+  text-align: center;
+}
+.formField {
+  color: white;
+  background: #500d16;
+  border: none;
+  padding: 15.5px;
+  width: 92%;
+  display: block;
+  font-size: 14px;
+}
+.formBtn {
+  display: block;
+  border: none;
+  background: #500d16;
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  float: left;
+}
+.formBtn:hover {
+  background: #841916;
+}
+.formReset {
+  display: block;
+  border: none;
+  background: #500d16;
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  float: left;
+  margin-left: 10px;
+}
+.formReset:hover {
+  background: #841916;
 }
