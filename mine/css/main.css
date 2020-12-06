@@ -388,6 +388,7 @@ h4 {
 #aboutCaption {
   height: 500px;
   background: rgba(0, 0, 0, 0.7);
+  text-align: center;
 }
 #ourHistory {
   background-color: #f5f5f5;
@@ -654,7 +655,6 @@ h4 {
     margin: 0 auto;
   }
   .caption h1 {
-    color: red;
     font-size: 28px;
     letter-spacing: 2px;
   }
@@ -681,10 +681,42 @@ h4 {
     width: 100%;
   }
   .sectionHeader {
-    font-size: 18px;
+    font-size: 24px;
   }
   .inspectBody .container .col2 {
     padding-left: 0;
     padding-right: 0;
+  }
+  .teamMemberinfo {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .timeTitle {
+    font-size: 14px;
+  }
+  .formShape {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .caption h1 {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  .featuresBody .container .col3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  header .container {
+    font-size: 12px;
+  }
+  .engineBody .container .col2 {
+    width: 100%;
+  }
+  .sectionHeader {
+    font-size: 20px;
+  }
+  .contactForm {
+    width: 80%;
   }
 }
