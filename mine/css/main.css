@@ -98,6 +98,7 @@ header .logo img {
 #mainCaption {
   height: 500px;
   background: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 .caption {
   display: flex;
@@ -708,7 +709,7 @@ h4 {
     margin: 0 auto;
   }
   header .container {
-    font-size: 12px;
+    font-size: 10px;
   }
   .engineBody .container .col2 {
     width: 100%;
