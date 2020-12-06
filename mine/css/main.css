@@ -709,7 +709,8 @@ h4 {
     margin: 0 auto;
   }
   header .container {
-    font-size: 10px;
+    font-size: 8px;
+    display: flex;
   }
   .engineBody .container .col2 {
     width: 100%;
