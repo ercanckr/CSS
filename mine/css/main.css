@@ -73,6 +73,9 @@ header .logo img {
 .menu li {
   float: left;
 }
+.menu li ul li {
+  float: left;
+}
 
 .menu li a {
   padding: 27px 17px;
@@ -81,6 +84,14 @@ header .logo img {
   letter-spacing: 3px;
   color: #333333;
   transition: all 0.5s ease;
+}
+.menu ul li ul {
+  display: none;
+  position: fixed;
+}
+.menu ul li:hover ul {
+  display: block;
+  position: absolute;
 }
 
 .menu li:hover a {
@@ -621,6 +632,7 @@ h4 {
 .formReset:hover {
   background: #841916;
 }
+
 /*Media Queries*/
 @media screen and (max-width: 960px) {
   .caption h1 {

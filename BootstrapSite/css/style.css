@@ -1,0 +1,55 @@
+.resimslider {
+  height: 890px;
+}
+body {
+  padding-top: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.hakkimizda {
+  background-color: #f2f2f2;
+}
+.ayrac {
+  border: none;
+  border-top: 3px solid #343a40;
+  max-width: 500px;
+  margin: 70px auto;
+}
+.imggri {
+  color: #343a40;
+  position: relative;
+  top: -220px;
+  width: 250px;
+  border: 20px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.ekipcard {
+  margin-top: 250px;
+}
+
+.imgbeyaz {
+  color: #343a40;
+  position: relative;
+  top: -130px;
+  width: 250px;
+  border: 20px solid #ffffff;
+  background-color: #fff;
+}
+.card-deck {
+  margin-top: -100px;
+}
+.ekipcard > img:hover {
+  opacity: 0.8;
+}
+.galeri {
+  background-color: #f2f2f2;
+}
+.figure:hover {
+  opacity: 0.8;
+}
+.imggri {
+  margin-top: 90px;
+}
+.form {
+  margin-bottom: 100px;
+}
