@@ -71,7 +71,13 @@
       <div class="contactBody">
         <div class="container">
           <div class="wrapper">
-            <form action="" class="contactForm" netlify>
+            <form
+              class="contactForm"
+              name="contact"
+              method="POST"
+              data-netlify="true"
+            >
+              <input type="hidden" name="form-name" value="contact" />
               <div class="formitem">
                 <span class="formShape"><i class="fa fa-user fa-2x"></i></span>
                 <input
