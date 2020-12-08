@@ -73,11 +73,14 @@
           <div class="wrapper">
             <form
               class="contactForm"
-              name="contact"
+              name="iletisim"
               method="POST"
+              netlify-honeypot="bot-field"
+              action="/tesekkurler.html"
               data-netlify="true"
             >
-              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="iletisim" />
               <div class="formitem">
                 <span class="formShape"><i class="fa fa-user fa-2x"></i></span>
                 <input
