@@ -98,6 +98,21 @@ header .logo img {
   background: #500d16;
   color: white;
 }
+
+.kontrol {
+  position: relative;
+  font-size: 40px;
+  float: right;
+  line-height: 60px;
+  padding: 10px;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+#kontrol {
+  display: none;
+}
 #mainSlider {
   height: 500px;
   background: url("../img/main.jpg") center center no-repeat;
@@ -731,5 +746,51 @@ h4 {
   }
   .contactForm {
     width: 80%;
+  }
+
+  .menu i {
+    display: block;
+    cursor: pointer;
+    color: #500d16;
+    font-size: 60px;
+    text-align: right;
+    padding: 10px;
+  }
+  .kontrol {
+    display: block;
+  }
+  .menu {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .menu ul {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 0;
+    width: 100%;
+    right: -100%;
+    transition: 0.5s ease;
+  }
+  .menu ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: red;
+  }
+  .menu a {
+    width: 100%;
+    font-size: 30px;
+    line-height: 70px;
+    border-radius: 0;
+    border-bottom: 1px dotted gray;
+  }
+
+  #kontrol:checked ~ ul {
+    display: block;
+    right: 0;
+    top: 0;
   }
 }
