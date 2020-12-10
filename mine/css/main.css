@@ -786,6 +786,11 @@ h4 {
     line-height: 70px;
     border-radius: 0;
     border-bottom: 1px dotted gray;
+    background-color: rgba(155, 155, 155, 0.5);
+  }
+  .menu li a {
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease;
   }
 
   #kontrol:checked ~ ul {
