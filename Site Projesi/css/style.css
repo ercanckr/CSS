@@ -39,6 +39,7 @@ nav a:visited {
   font-size: 16px;
 }
 #anasayfa {
+  isolation: isolate;
   background-color: gray;
   height: 600px;
   background-image: url("../img/r2.jpg");
@@ -95,7 +96,7 @@ h3 {
   padding: 0;
   margin-top: 20px;
 }
-span {
+#spanid {
   font-size: 50px;
   margin-right: 7px;
   line-height: 42px;
@@ -201,6 +202,7 @@ span {
   height: auto;
   text-align: center;
 }
+
 #h3iletisim {
   color: white;
 }
@@ -283,4 +285,11 @@ input[type="submit"] {
   font-size: 15px;
   padding: 10px 12px;
   margin-top: 20px;
+}
+.darkmode-ignore {
+  isolation: isolate;
+}
+.darkmode--activated .a {
+  isolation: isolate;
+  color: #dbdbdb;
 }
