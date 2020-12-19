@@ -436,6 +436,7 @@ p {
   width: 100%;
   position: relative;
   border: 10px solid white;
+  z-index: 1;
 }
 #about .col-left .about-img::after {
   content: "";
