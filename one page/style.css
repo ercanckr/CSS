@@ -436,6 +436,8 @@ p {
   width: 100%;
   position: relative;
   border: 10px solid white;
+}
+#about .col-left {
   z-index: 1;
 }
 #about .col-left .about-img::after {
@@ -528,6 +530,7 @@ p {
 #footer p {
   color: white;
   font-size: 1.3rem;
+  margin-bottom: 10px;
 }
 
 /*End  Footer Section*/
