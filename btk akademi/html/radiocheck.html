@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Onay Kutusu</h1>
+    <form action="" name="onay">
+      <input type="checkbox" name="bulten" id="" />Bültene Abone Ol
+      <br />
+      <input type="checkbox" name="" id="" /> Evliyim <br /><br />
+      <input type="submit" value="Abone ol" name="" id="" />
+    </form>
+    <h1>Seçenek Kutusu</h1>
+    <form action="" name="secenek">
+      <h2>Sevdiğiniz Spor:</h2>
+      <input type="radio" name="spor" value="futbol" checked id="" />Futbol
+      <input type="radio" name="spor" value="Basket" id="" />Basket
+      <input type="radio" name="spor" value="voley" id="" />Voley <br /><br />
+      <input type="submit" name="" value="Gönder" id="" /><input
+        type="reset"
+        name="reset"
+        value="Sıfırla"
+        id=""
+      />
+    </form>
+    <h1>Seçenek Listesi (Combobox)</h1>
+    <form action="">
+      <select name="dyeri" id="dyeri">
+        <option selected value="Antalya">Antalya</option>
+        <option value="Ankara">Ankara</option>
+        <option value="İstanbul">İstanbul</option>
+        <option value="Eskişehir">Eskişehir</option>
+        <option value="İzmir">İzmir</option>
+        <option value="Adana">Adana</option>
+      </select>
+      <br /><br />
+      <input type="submit" value="Gönder" name="" id="" />
+      <input type="reset" value="Reset" name="" id="" />
+    </form>
+    <h1>Resimli Onay Formu</h1>
+    <form action="onay.php" name="onay" method="GET">
+        Kullanıcı: <input type="text" name="kullanici" id="">
+        <br>
+       Parola: <input type="password" name="parola" id="">
+       <br><br>
+        <input type="image" src="img/button1.png" name="button" width="100">
+        <input type="image" src="img/button2.png" width="100">
+    </form>
+  </body>
+</html>
