@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        border-color: indianred;
+        border-style: solid;
+      }
+      #buyuk {
+        width: 200px;
+        height: 100px;
+        background-color: khaki;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+      }
+      #kucuk {
+        width: 100px;
+        height: 50px;
+        background-color: lawngreen;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+      }
+
+      #bir {
+        width: 200px;
+        height: 100px;
+        background-color: khaki;
+        z-index: 1;
+        border-radius: 10px 20px 30px 40px;
+        border-width: 5px 10px 15px 20px;
+        border-color: blue yellow red green;
+      }
+      #iki {
+        width: 100px;
+        height: 50px;
+        background-color: lawngreen;
+        position: relative;
+        left: 30px;
+        top: -30px;
+        z-index: 2;
+      }
+      .overflow {
+        width: 200px;
+        height: 100px;
+        background-color: gray;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="buyuk">
+      <div id="kucuk"></div>
+    </div>
+    <div id="bir"></div>
+    <div id="iki"></div>
+    <div class="overflow">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus vero
+        suscipit eveniet odit? Eligendi harum at vero reprehenderit iure quidem
+        dolor accusamus expedita quaerat, maxime quam eius sint dolore rem.
+      </p>
+    </div>
+  </body>
+</html>
