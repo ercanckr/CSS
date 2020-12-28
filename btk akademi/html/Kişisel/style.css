@@ -1,0 +1,153 @@
+/*CSS Dosyası*/
+/*Boşlukları Sıfırla*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#sayfa {
+  width: 900px;
+  min-height: 600px;
+  margin: 50px auto;
+}
+/*Banner*/
+#banner {
+  width: 898px;
+  min-height: 100px;
+  margin: auto;
+  background-color: white;
+}
+
+/*logo*/
+#logo {
+  width: 100px;
+  height: 80px;
+  background-color: white;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  float: left;
+}
+#vesika {
+  width: 80px;
+}
+/*sosyal media ikonları*/
+
+#sosyal {
+  width: 180px;
+  min-height: 40px;
+  background-color: white;
+  float: right;
+  position: relative;
+  top: 50px;
+  right: 10px;
+}
+#ikon {
+  float: right;
+  margin-left: 4px;
+}
+#anamenu {
+  width: 898px;
+  min-height: 50px;
+  margin: auto;
+  background-color: #f6f6f6;
+}
+#anamenu ul {
+  list-style-type: none;
+}
+#anamenu ul li {
+  border: solid 3px blue;
+  border-radius: 8px;
+  width: 120px;
+  background-color: #fff;
+  float: left;
+  padding: 4px;
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+#anamenu ul a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+#anamenu ul a:link {
+  color: blue;
+}
+#anamenu ul a:visited {
+  color: brown;
+}
+#anamenu ul a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+#anamenu ul a:active {
+  color: red;
+}
+#anamenu ul li:hover {
+  background-color: #f6f6f6;
+}
+/*İçerik ve Yan Menu Kodları*/
+#icerik {
+  width: 700px;
+  min-height: 400px;
+  border: 1px;
+  margin: auto;
+  background-color: white;
+  float: left;
+}
+#yanmenu {
+  width: 198px;
+  min-height: 400px;
+  border: 1px;
+  margin: auto;
+  background-color: #f6f6f6;
+  float: left;
+  text-indent: 40px;
+}
+.resim {
+  float: left;
+  width: 200px;
+  margin: 10px;
+}
+.metin {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: blue;
+  text-indent: 40px;
+  margin: 10px;
+}
+.baslik {
+  font-size: 20px;
+  color: red;
+  margin: 10px;
+  font-weight: bold;
+}
+/*alt menü*/
+#altmenu {
+  width: 898px;
+  min-height: 50px;
+  border: 1px;
+  margin: auto;
+  background-color: #f6f6f6;
+  float: left;
+  text-align: center;
+  color: black;
+}
+#altmenu a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+#altmenu a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+.kucukmetin {
+  font-size: 10px;
+}
