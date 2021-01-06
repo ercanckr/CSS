@@ -302,6 +302,16 @@ p {
   z-index: 1;
   overflow: hidden;
 }
+#services .bir {
+  background-image: url(img/img-5.png);
+}
+#services .iki {
+  background-image: url(img/img-3.png);
+}
+#services .uc {
+  background-image: url(img/img-4.png);
+}
+
 #services .service-item::after {
   content: "";
   position: absolute;
