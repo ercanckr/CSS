@@ -1,0 +1,162 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 666px;
+    height: 332px;
+    border: 1px dashed #7B61FF;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 16px;
+    border: 0;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.btn  svg{
+margin-right: 8.4px;
+}
+
+.Lightbtn  svg{
+    margin-right: 8.4px;
+    }
+
+#btn-2:hover{
+background-color: rgba(0,0,0, 0.9);
+}
+
+#btn-3:disabled{
+color: rgba(255,255,255, 0.4);
+cursor: not-allowed;
+}
+
+
+.Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 666px;
+}
+
+.Lightbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 16px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #fff;
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+}
+#Lightbtn-2:hover{
+    background-color: rgba(255,255,255, 0.4);
+}
+
+#Lightbtn-3:disabled{
+    color: rgba(0,0,0, 0.4);
+    cursor: not-allowed;
+    }
+
+
+
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        height: 100vh;
+        width: 391px;
+        height: 189px;
+        border: 1px dashed #7B61FF;
+    }
+    .Buttons2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        width: 391px;
+    }
+
+    .DarkTheme{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 154px;
+        height: 32px;
+        padding: 16px;
+        border: 1px solid black;
+        border-radius: 43px;
+        color: black;
+        font-size: 15px;
+        cursor: pointer;
+        font-weight: 400;
+    }
+    .LightTheme{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 154px;
+        height: 32px;
+        padding: 8px;
+        border: 1px solid white;
+        border-radius: 43px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        font-weight: 400;
+        background-color: transparent;
+    }
+    
+    #DarkTheme-2:hover{
+        background-color: black;
+        color: white;
+    }
+    #LightTheme-2:hover{
+        background-color: white;
+        color: black;
+    }
+
+    #DarkTheme-3:disabled{
+        color:  rgba(0, 0, 0, 0.4);
+        cursor:not-allowed;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+    }
+    #LightTheme-3:disabled{
+        color: white;
+        cursor:not-allowed;
+
+    }

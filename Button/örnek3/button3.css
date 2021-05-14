@@ -1,0 +1,37 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 16px;
+    min-width: 250px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+.btn-primary{
+    background-color: #4984ef;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: #145ce0;
+}
+.btn-primary:disabled{
+    background-color: #e5edfd;
+    cursor: not-allowed;
+}
+
+.btn.loading{
+    background-color: #e5edfd;
+}
