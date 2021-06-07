@@ -1,0 +1,135 @@
+@import "normalize";
+
+$primary: #0b132a;
+$secondary: #4f5665;
+$btncolor: #f53838;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #fff;
+  color: $secondary;
+}
+
+.container {
+  max-width: 1207px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: $primary;
+}
+
+.header {
+  margin-top: 3rem;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav {
+      a {
+        text-decoration: none;
+        color: $secondary;
+      }
+
+      a + a {
+        margin-left: 42px;
+      }
+      a:hover {
+        color: $btncolor;
+      }
+    }
+
+    .navbuttons {
+      .btn-secondary {
+        color: $primary;
+      }
+      .btn-primary {
+        margin-left: 36px;
+        margin-right: 67px;
+        padding: 12px 46px;
+        border-radius: 50px;
+        color: $btncolor;
+        border: 1px solid #f53855;
+      }
+
+      .btn-secondary:hover {
+        color: $btncolor;
+      }
+    }
+  }
+}
+
+.hero {
+  padding-top: 140px;
+  padding-bottom: 104px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .herocontent {
+    h1 {
+      max-width: 555px;
+      font-size: 3rem;
+      color: $primary;
+      margin-top: 0;
+      margin-bottom: 3rem;
+    }
+    p {
+      max-width: 555px;
+      margin-top: 0;
+      margin-bottom: 53px;
+    }
+    a {
+      background-color: $btncolor;
+      color: white;
+      padding: 12px 77px;
+      border-radius: 10px;
+      box-shadow: 0px 20px 50px #f53838;
+    }
+  }
+}
+
+.herocard{
+ .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   .herocards{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     .herocardcontent{
+       margin-left: 44px;
+      h3{
+        margin: 0;
+        margin-bottom: 0.5rem;
+        font-size: 25px;
+      }
+      p{
+        margin: 0;
+        font-size: 20px;
+      }
+     }
+   }
+   .herocards:nth-last-of-type(1){
+    border-right: none;
+    padding-right: 0;
+  }
+ }
+}

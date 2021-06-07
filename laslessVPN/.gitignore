@@ -1,0 +1,10 @@
+
+# Build output
+dist/
+
+# Node artifact files
+node_modules/ 
+
+# System Files
+.DS_Store
+Thumbs.db
