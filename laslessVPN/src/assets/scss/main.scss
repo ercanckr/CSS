@@ -6,6 +6,8 @@ $btncolor: #f53838;
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -31,6 +33,20 @@ body {
   color: $primary;
 }
 
+.btn-secondary {
+  color: $primary;
+  padding: 15px;
+}
+
+.btn-primary {
+  text-decoration: none;
+  font-weight: bold;
+  color: $primary;
+  border-radius: 50px;
+  color: $btncolor;
+  border: 2px solid #f53855;
+}
+
 .header {
   margin-top: 3rem;
 
@@ -43,31 +59,25 @@ body {
       a {
         text-decoration: none;
         color: $secondary;
+        padding: 10px 20px;
       }
 
-      a + a {
-        margin-left: 42px;
-      }
       a:hover {
         color: $btncolor;
+        transition: all 0.3s;
       }
     }
 
     .navbuttons {
-      .btn-secondary {
-        color: $primary;
-      }
       .btn-primary {
         margin-left: 36px;
         margin-right: 67px;
-        padding: 12px 46px;
-        border-radius: 50px;
-        color: $btncolor;
-        border: 1px solid #f53855;
+        padding: 15px 46px;
       }
 
       .btn-secondary:hover {
         color: $btncolor;
+        transition: all 0.3s;
       }
     }
   }
@@ -87,19 +97,25 @@ body {
       max-width: 555px;
       font-size: 3rem;
       color: $primary;
-      margin-top: 0;
+      font-weight: 500;
       margin-bottom: 3rem;
+      line-height: 70px;
     }
     p {
       max-width: 555px;
-      margin-top: 0;
+
       margin-bottom: 53px;
+      line-height: 30px;
     }
-    a {
+    .btn {
       background-color: $btncolor;
       color: white;
       padding: 12px 77px;
       border-radius: 10px;
+      box-shadow: 0px 10px 50px #f53838;
+      transition: all 0.3s;
+    }
+    .btn:hover {
       box-shadow: 0px 20px 50px #f53838;
     }
   }
@@ -108,32 +124,156 @@ body {
 .herocard {
   .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    box-shadow: 0px 10px 10000px rgba($color: #000000, $alpha: 0.1);
-    height: 200px;
+    box-shadow: 1px 37px 36px 9px rgba(0, 0, 0, 0.14);
+    padding-top: 37px;
+    padding-bottom: 37px;
     margin-bottom: 100px;
-
     .herocards {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: 30px 118px;
+
+      & + .herocards {
+        border-left: 1px solid #eeeff2;
+      }
+
       .herocardcontent {
         margin-left: 44px;
+
         h3 {
-          margin: 0;
           margin-bottom: 0.5rem;
           font-size: 25px;
         }
         p {
-          margin: 0;
           font-size: 20px;
         }
       }
     }
-    .herocards:nth-last-of-type(1) {
-      border-right: none;
-      padding-right: 0;
+  }
+}
+
+.Features {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+    .featurescontent {
+      .Featuresustcontent {
+        h2 {
+          max-width: 383px;
+          font-size: 35px;
+          color: $primary;
+          line-height: 50px;
+          margin-bottom: 20px;
+          font-weight: 500;
+        }
+        p {
+          max-width: 427px;
+          font-size: 16px;
+          color: $secondary;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .featureslist {
+        div {
+          display: flex;
+          align-items: center;
+          margin-bottom: 15px;
+        }
+
+        p {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+.YourPlan {
+  background-color: #f6f6f6;
+  .container {
+    .YourPlanContent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      h2 {
+        color: $primary;
+        margin-bottom: 20px;
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 500;
+        margin-top: 80px;
+      }
+      p {
+        margin-bottom: 90px;
+      }
+    }
+
+    .YourPlanCards {
+      display: flex;
+      justify-content: space-evenly;
+
+      .YourPlanCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $secondary;
+        padding: 60px;
+        margin-bottom: 150px;
+        background-color: #fff;
+
+        .YourPlanCardimg {
+          margin-bottom: 30px;
+        }
+        h4 {
+          margin-bottom: 30px;
+        }
+        .YourPlanCardlist {
+          div {
+            display: flex;
+            align-items: center;
+            & + div {
+              margin-top: 10px;
+            }
+            p {
+              margin-left: 20px;
+            }
+          }
+        }
+        .YourPlanCardprice {
+          font-size: 25px;
+          margin-top: 50px;
+
+          strong {
+            color: $primary;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 30px;
+          }
+        }
+        .btn-primary {
+          margin-top: 20px;
+          padding: 13px 62px;
+        }
+        .btn-primary:hover {
+          background-color: $btncolor;
+          box-shadow: 0px 10px 50px #f53838;
+          color: white;
+          transition: all 0.3s;
+        }
+      }
+      .YourPlanCard:hover {
+        border: 1px solid $btncolor;
+        transition: all 0.3s;
+      }
     }
   }
 }
