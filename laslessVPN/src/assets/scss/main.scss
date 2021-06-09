@@ -325,7 +325,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 181px;
+    margin-bottom: 80px;
     h2 {
       font-weight: 500;
       font-size: 35px;
@@ -407,12 +407,15 @@ body {
 }
 .Subscribe {
   .container {
+    position: relative;
+    top: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid;
     box-shadow: 0px 28px 42px 3px rgba(245, 56, 56, 0.27);
     padding: 58px 70px;
+    background-color: #fff;
     .SubscribeTitle {
       h2 {
         font-weight: 500;
@@ -436,6 +439,65 @@ body {
 .footer {
   background-color: #f8f8f8;
   .container {
-    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .LaslesVPN {
+      margin-top: 200px;
+      display: flex;
+      justify-content: start;
+      align-items: flex-start;
+      flex-direction: column;
+      margin-bottom: 95px;
+      a {
+        img {
+          margin-bottom: 20px;
+        }
+      }
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 340px;
+        margin-bottom: 30px;
+      }
+      .footerimages {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .copyright {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #afb5c0;
+      }
+    }
+    .footerlinks {
+      display: flex;
+
+      .ortak {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        & + .ortak {
+          margin-left: 126px;
+        }
+        h4 {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 30px;
+          color: $primary;
+          margin-bottom: 20px;
+        }
+        a {
+          font-size: 16px;
+          line-height: 30px;
+          text-decoration: none;
+          color: $secondary;
+        }
+      }
+    }
   }
 }
