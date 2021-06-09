@@ -348,10 +348,8 @@ body {
       align-items: center;
       .TrustedCard {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
         flex-direction: column;
-        border: 2px solid $secondary;
+        border: 2px solid #ddd;
         padding: 30px;
         min-width: 400px;
         min-height: 230px;
@@ -362,15 +360,16 @@ body {
         }
         .TrustedCardust {
           display: flex;
-          justify-content: space-between;
           align-items: center;
           margin-bottom: 20px;
+          width: 100%;
           .TrustedCardContent {
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             flex-direction: column;
             margin-left: 20px;
+            flex-grow: 1;
             h4 {
               font-weight: 500;
               font-size: 18px;
@@ -387,10 +386,10 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-left: 95px;
             font-size: 16px;
             line-height: 30px;
             color: $primary;
+            margin-left: 20px;
             img {
               margin-left: 10px;
             }
@@ -399,7 +398,7 @@ body {
       }
       .TrustedCard:hover {
         border: 2px solid $btncolor;
-        box-shadow: 0px 28px 42px 3px rgba(245, 56, 56, 0.27);
+        box-shadow: 2px 8px 21px 3px rgba(245, 56, 58, 0.2);
         transition: all 0.3s;
       }
     }
